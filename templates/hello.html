@@ -1,0 +1,7 @@
+<!doctype html>
+{% block content %}
+    <h3> Objects Data</h3>
+    {% for item in objects %}
+        {{ item.label }} | {{ item.features }} <br \>
+    {% endfor %}
+{% endblock %}
